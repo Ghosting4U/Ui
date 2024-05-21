@@ -1,0 +1,86 @@
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local BankFrame = Instance.new("Frame")
+local RoundCorner = Instance.new("UICorner")
+local BankIcon = Instance.new("ImageLabel")
+local BankMoney = Instance.new("TextLabel")
+local Cash = Instance.new("Frame")
+local RoundCorner_2 = Instance.new("UICorner")
+local CashIcon = Instance.new("ImageLabel")
+local CashMoney = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+BankFrame.Name = "BankFrame"
+BankFrame.Parent = ScreenGui
+BankFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BankFrame.BackgroundTransparency = 0.500
+BankFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BankFrame.BorderSizePixel = 0
+BankFrame.Position = UDim2.new(0.00782446377, 0, 0.923303843, 0)
+BankFrame.Size = UDim2.new(0, 99, 0, 31)
+
+RoundCorner.Name = "RoundCorner"
+RoundCorner.Parent = BankFrame
+
+BankIcon.Name = "BankIcon"
+BankIcon.Parent = BankFrame
+BankIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BankIcon.BackgroundTransparency = 1.000
+BankIcon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BankIcon.BorderSizePixel = 0
+BankIcon.Position = UDim2.new(0.0707070678, 0, 0.0967741907, 0)
+BankIcon.Size = UDim2.new(0, 24, 0, 24)
+BankIcon.Image = "rbxassetid://17563784993"
+
+BankMoney.Name = "BankMoney"
+BankMoney.Parent = BankFrame
+BankMoney.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BankMoney.BackgroundTransparency = 1.000
+BankMoney.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BankMoney.BorderSizePixel = 0
+BankMoney.Position = UDim2.new(0.313131303, 0, 0.0967741907, 0)
+BankMoney.Size = UDim2.new(0, 58, 0, 25)
+BankMoney.Font = Enum.Font.Gotham
+BankMoney.Text = "$100k"
+BankMoney.TextColor3 = Color3.fromRGB(0, 0, 0)
+BankMoney.TextSize = 14.000
+
+Cash.Name = "Cash"
+Cash.Parent = ScreenGui
+Cash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cash.BackgroundTransparency = 0.500
+Cash.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cash.BorderSizePixel = 0
+Cash.Position = UDim2.new(0.105291359, 0, 0.923303843, 0)
+Cash.Size = UDim2.new(0, 99, 0, 31)
+
+RoundCorner_2.Name = "RoundCorner"
+RoundCorner_2.Parent = Cash
+
+CashIcon.Name = "CashIcon"
+CashIcon.Parent = Cash
+CashIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CashIcon.BackgroundTransparency = 1.000
+CashIcon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CashIcon.BorderSizePixel = 0
+CashIcon.Position = UDim2.new(0.0707070678, 0, 0.0967741907, 0)
+CashIcon.Size = UDim2.new(0, 24, 0, 24)
+CashIcon.Image = "rbxassetid://17563825587"
+
+CashMoney.Name = "CashMoney"
+CashMoney.Parent = Cash
+CashMoney.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CashMoney.BackgroundTransparency = 1.000
+CashMoney.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CashMoney.BorderSizePixel = 0
+CashMoney.Position = UDim2.new(0.313131303, 0, 0.0967741907, 0)
+CashMoney.Size = UDim2.new(0, 58, 0, 25)
+CashMoney.Font = Enum.Font.Gotham
+CashMoney.Text = "$100k"
+CashMoney.TextColor3 = Color3.fromRGB(0, 0, 0)
+CashMoney.TextSize = 14.000
